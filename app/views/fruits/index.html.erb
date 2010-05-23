@@ -1,0 +1,22 @@
+<h1>Listing fruits</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+
+<% @fruits.each do |fruit| %>
+  <tr>
+    <td><%=h fruit.name %></td>
+    <td><%=h fruit.description %></td>
+    <td><%= link_to 'Show', fruit %></td>
+    <td><%= link_to 'Edit', edit_fruit_path(fruit) %></td>
+    <td><%= link_to 'Destroy', fruit, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New fruit', new_fruit_path %>

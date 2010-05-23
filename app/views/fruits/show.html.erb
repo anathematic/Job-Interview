@@ -1,0 +1,13 @@
+<p>
+  <b>Name:</b>
+  <%=h @fruit.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @fruit.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_fruit_path(@fruit) %> |
+<%= link_to 'Back', fruits_path %>
