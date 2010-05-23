@@ -1,6 +1,6 @@
 == Job Interview
 
-Work in software development? Great interviewing you just because a little bit easier as we can check if you can actually write code or not. This is a *very* simple Rails App to help show the interviewers what you can and can't do, this is what it should cover:
+Work in Ruby on Rails development? Great! Interviewing you just because a little bit easier as we can check (relatively speaking) if you can actually write code or not. This is a *very* simple Rails App to help show the interviewers what you can and can't do, this is what it should cover:
 
   1. Forking a project and cloning it locally
   2. Starting a simple Rails app (migration / start mongrel)
