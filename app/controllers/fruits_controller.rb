@@ -16,7 +16,8 @@ class FruitsController < ApplicationController
     @fruit = Fruit.new(params[:fruit])
 
     if @fruit.save
-      redirect_to(@fruit, :notice => 'Fruit was successfully created.')
+      flash[:notice] = "Fruit was successfully created."
+      redirect_to(@fruit)
     else
       render :action => "new"
     end
