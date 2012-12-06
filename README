@@ -9,10 +9,10 @@ Work in Ruby on Rails development? Great! Interviewing you just because a little
   5. Branching master with a good description name
   6. Writing an integration test to help prevent the error from happening again
   7. Committing the work and merging it back into master
-  
-  = Depending on how they handle writing tests 
+
+  = Depending on how they handle writing tests
   1. Create a new story for adding comments to a fruit (without a plugin please)
   2. Implementing the story with correct branches
   3. Optimising the queries to help make the app fast
-  
+
 Ideally the further they get along the more they know about Rails, feel free to fork this and extend.
